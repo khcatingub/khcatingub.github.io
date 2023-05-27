@@ -17,6 +17,9 @@ a {
 	color: white;
 	text-decoration: none;
 }
+a:hover:not(.fa) {
+	text-decoration: underline white;
+}
 a:hover {
 	text-decoration: underline white;
 }
