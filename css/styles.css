@@ -69,13 +69,13 @@ p {
 .entry {
 	float: right;
 	display: inline-grid;
-	grid-template-columns: 300px 450px;
+	grid-template-columns: 2;
 	grid-template-rows: 2;
 	padding-bottom: 25%;
 	grid-row-gap: 10px;
 }
 .entry .desc {
-	max-width: 250px;
+	max-width: 300px;
 }
 .text {
 	width: 750px;
