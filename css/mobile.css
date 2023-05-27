@@ -54,7 +54,7 @@ p {
 .sidebar {
 	background-color: #0f0f0f;
 	margin-top: 50px;
-	margin-left: 10px;
+	padding-left: 10px;
 	height: 200px;
 	min-width: 100%;
 	position: fixed;
@@ -71,13 +71,14 @@ p {
 }
 .content {
 	max-width: 100%;
-	padding: 250px 10px 0px 10px;
+	padding: 300px 10px 0px 10px;
 }
 .entry {
 	display: grid;
 	grid-template-columns: 2;
-	grid-template-rows: 2;
+	grid-template-rows: 1;
 	grid-row-gap: 10px;
+	padding-bottom: 15%;
 }
 .entry .desc {
 	max-width: 95%;
@@ -85,6 +86,7 @@ p {
 .imgcontent {
 	grid-column-start: 2;
 	max-width: 200px;
+	padding-bottom: 10px;
 }
 .imgabout {
 	max-width: 100%;
