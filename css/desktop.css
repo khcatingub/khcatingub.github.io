@@ -86,6 +86,8 @@ p {
 }
 .entry .desc {
 	max-width: 95%;
+	grid-row-start: 1;
+	grid-row-end: 3;
 }
 .imgcontent {
 	grid-column-start: 2;

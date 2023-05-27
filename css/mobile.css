@@ -32,19 +32,19 @@ p {
 	min-width: 100%;
 	position: fixed;
 	overflow: hidden;
-	border:	15px solid #b82d25;
+	border:	10px solid #b82d25;
 	height: 0;
 }
 #rectangle2 {
-	margin-top: 25px;
+	margin-top: 20px;
 	min-width: 100%;
 	position: fixed;
 	overflow: hidden;
-	border:	15px solid #e53422;
+	border:	10px solid #e53422;
 	height: 0;
 }
 #rectangle3 {
-	margin-top: 45px;
+	margin-top: 40px;
 	min-width: 100%;
 	position: fixed;
 	overflow: hidden;
@@ -76,17 +76,18 @@ p {
 .entry {
 	display: grid;
 	grid-template-columns: 2;
-	grid-template-rows: 1;
+	grid-template-rows: 2;
 	grid-row-gap: 10px;
 	padding-bottom: 15%;
 }
 .entry .desc {
 	max-width: 95%;
+	grid-row-start: 1;
+	grid-row-end: 3;
 }
 .imgcontent {
 	grid-column-start: 2;
 	max-width: 200px;
-	padding-bottom: 10px;
 }
 .imgabout {
 	max-width: 100%;
