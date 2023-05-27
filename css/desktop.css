@@ -30,14 +30,13 @@ p {
 	text-decoration: none;
 	color: white;
 }
-@media (max-width: 1920px) {
-	#rectangle1 {
-		min-height: 100%;
-		position: fixed;
-		overflow: hidden;
-		border:	15px solid #b82d25;
-		width: 0;
-	}
+#rectangle1 {
+	min-height: 100%;
+	position: fixed;
+	overflow: hidden;
+	border:	15px solid #b82d25;
+	width: 0;
+}
 #rectangle2 {
 	margin-left: 25px;
 	min-height: 100%;
@@ -84,7 +83,7 @@ p {
 	width: 900px;
 }
 .entry .desc {
-	width: 380px;
+	max-width: 48%;
 }
 .socmed {
 	display: inline-grid;
@@ -105,5 +104,4 @@ p {
 .imgabout {
 	max-width: 900px;
 	padding-bottom: 20px;
-}
 }

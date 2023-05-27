@@ -1,0 +1,55 @@
+html {
+	overflow-y: scroll;
+	scroll-behavior: smooth;
+}
+body {
+	background-color: #0f0f0f;
+	background-size: cover;
+	font-family: Montserrat;
+	color: white;
+	margin: 0;
+	margin-right: 20px;
+}
+h3 {
+	margin-top: -3px;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+p {
+	margin-top: -5px;
+	font-size: 0.9em;
+	line-height: 1.15em;
+}
+.fa {
+	font-size: 25px !important;
+	padding-right: 10px;
+	width: 25px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+#rectangle1 {
+	min-width: 100%;
+	position: fixed;
+	overflow: hidden;
+	border:	15px solid #b82d25;
+	height: 0;
+}
+#rectangle2 {
+	margin-top: 25px;
+	min-width: 100%;
+	position: fixed;
+	overflow: hidden;
+	border:	15px solid #e53422;
+	height: 0;
+}
+#rectangle3 {
+	margin-top: 45px;
+	min-width: 100%;
+	position: fixed;
+	overflow: hidden;
+	border: 5px solid #efa12c;
+	height: 0;
+}
