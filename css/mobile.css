@@ -82,13 +82,13 @@ p {
 	padding-bottom: 25%;
 }
 .entry .desc {
-	max-width: 95%;
+	max-width: 40vw;
 	grid-row-start: 1;
 	grid-row-end: 3;
 }
 .imgcontent {
 	grid-column-start: 2;
-	max-width: 200px;
+	max-width: 50vw;
 }
 .imgabout {
 	max-width: 100%;
