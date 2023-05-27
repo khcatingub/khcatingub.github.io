@@ -53,3 +53,17 @@ p {
 	border: 5px solid #efa12c;
 	height: 0;
 }
+.content {
+	float: right;
+	padding-top: 20px;
+	width: 100%;
+}
+.entry {
+	float: right;
+	display: inline-grid;
+	grid-template-columns: 2;
+	grid-template-rows: 2;
+	padding-bottom: 25%;
+	grid-row-gap: 10px;
+	width: 900px;
+}
