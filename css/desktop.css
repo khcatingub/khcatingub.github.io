@@ -85,9 +85,9 @@ p {
 }
 .imgcontent {
 	grid-column-start: 2;
-	width: 48%;
+	max-width: 450px;
 }
 .imgabout {
 	max-width: 100%;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 }
