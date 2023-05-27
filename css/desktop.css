@@ -51,7 +51,9 @@ p {
 	width: 0;
 }
 .sidebar {
+	background-color: #0f0f0f;
 	min-height: 100%;
+	width: 200px;
 	position: fixed;
 	overflow: hidden;
 	margin-left: 70px;
@@ -86,8 +88,4 @@ p {
 .imgcontent {
 	grid-column-start: 2;
 	max-width: 450px;
-}
-.imgabout {
-	max-width: 100%;
-	padding-bottom: 10px;
 }
