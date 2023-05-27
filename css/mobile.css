@@ -17,6 +17,9 @@ a {
 	color: white;
 	text-decoration: none;
 }
+a:hover {
+	text-decoration: auto;
+}
 p {
 	margin-top: -5px;
 	line-height: 1.15em;
