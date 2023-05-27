@@ -18,7 +18,7 @@ a {
 	text-decoration: none;
 }
 a:hover {
-	text-decoration: auto;
+	text-decoration: underline white;
 }
 p {
 	margin-top: -5px;
