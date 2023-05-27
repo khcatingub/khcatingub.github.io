@@ -40,7 +40,7 @@ p {
 	margin-left: 25px;
 	min-height: 100%;
 	position: fixed;
-	overflow: hidden;
+	overflow: visible;
 	border:	15px solid #e53422;
 	width: 0;
 }
@@ -55,7 +55,7 @@ p {
 .sidebar {
 	background-color: #0f0f0f;
 	min-height: 100%;
-	width: 350px;
+	width: 300px;
 	position: fixed;
 	overflow: hidden;
 	margin-left: 70px;
