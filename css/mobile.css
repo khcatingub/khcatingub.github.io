@@ -48,14 +48,14 @@ p {
 	min-width: 100%;
 	position: fixed;
 	overflow: hidden;
-	border: 5px solid #efa12c;
+	border: 6px solid #efa12c;
 	height: 0;
 }
 .sidebar {
 	background-color: #0f0f0f;
 	margin-top: 50px;
 	padding-left: 10px;
-	height: 125px;
+	height: 135px;
 	min-width: 100%;
 	position: fixed;
 	overflow: hidden;
