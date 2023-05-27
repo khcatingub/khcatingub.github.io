@@ -64,7 +64,7 @@ p {
 .content {
 	float: right;
 	padding-top: 20px;
-	width: 750px;
+	width: 900px;
 }
 .entry {
 	float: right;
@@ -78,7 +78,7 @@ p {
 	max-width: 300px;
 }
 .text {
-	width: 750px;
+	width: 900px;
 }
 .socmed {
 	display: inline-grid;
@@ -94,7 +94,7 @@ p {
 	width: 450px;
 }
 .imgabout {
-	max-width: 750px;
+	max-width: 900px;
 	padding-bottom: 20px;
 }
 .fa {
