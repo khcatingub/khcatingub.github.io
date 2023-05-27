@@ -52,7 +52,7 @@ p {
 .sidebar {
 	background-color: #0f0f0f;
 	min-height: 100%;
-	width: 400px;
+	width: 350px;
 	position: fixed;
 	overflow: hidden;
 	margin-left: 70px;
