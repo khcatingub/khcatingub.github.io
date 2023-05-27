@@ -23,7 +23,6 @@ p {
 	font-size: 25px !important;
 	padding-right: 10px;
 	width: 25px;
-	text-align: center;
 	text-decoration: none;
 	color: white;
 }
@@ -83,7 +82,7 @@ p {
 	width: 880px;
 }
 .entry .desc {
-	max-width: 45%;
+	max-width: 95%;
 }
 .imgcontent {
 	grid-column-start: 2;

@@ -22,7 +22,6 @@ p {
 	font-size: 25px !important;
 	padding-right: 10px;
 	width: 25px;
-	text-align: center;
 	text-decoration: none;
 	color: white;
 }
@@ -51,6 +50,7 @@ p {
 }
 .sidebar {
 	background-color: #0f0f0f;
+	margin-top: 30px;
 	height: 200px;
 	min-width: 100%;
 	position: fixed;
@@ -63,10 +63,8 @@ p {
 .sidebar .links {
 	padding-top: 25px;
 	font-size: 0.9em;
-	float: left;
 }
 .content {
-	margin-top: 150px;
 	align-content: center;
 	padding-top: 20px;
 	width: 100%;
