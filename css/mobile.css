@@ -9,6 +9,9 @@ body {
 	color: white;
 	margin: 0;
 }
+h3 {
+	margin-top: -3px;
+}
 a {
 	color: white;
 	text-decoration: none;
@@ -50,9 +53,9 @@ p {
 }
 .sidebar {
 	background-color: #0f0f0f;
-	margin-top: 55px;
+	margin-top: 50px;
 	margin-left: 10px;
-	height: 150px;
+	height: 200px;
 	min-width: 100%;
 	position: fixed;
 	overflow: hidden;
@@ -68,13 +71,12 @@ p {
 }
 .content {
 	max-width: 100%;
-	padding: 210px 10px 0px 10px;
+	padding: 250px 10px 0px 10px;
 }
 .entry {
 	display: grid;
 	grid-template-columns: 2;
 	grid-template-rows: 2;
-	padding-bottom: 25%;
 	grid-row-gap: 10px;
 }
 .entry .desc {
