@@ -8,10 +8,8 @@ body {
 	font-family: Montserrat;
 	color: white;
 	margin: 0;
-	margin-right: 20px;
-}
-h3 {
-	margin-top: -3px;
+	margin-right: 10px;
+	margin-left: 10px;
 }
 a {
 	color: white;
@@ -53,17 +51,28 @@ p {
 	border: 5px solid #efa12c;
 	height: 0;
 }
+.sidebar {
+	min-width: 100%;
+	position: fixed;
+	overflow: hidden;
+	margin-top: 70px;
+}
 .content {
-	float: right;
+	align-content: center;
 	padding-top: 20px;
 	width: 100%;
 }
 .entry {
-	float: right;
-	display: inline-grid;
+	display: grid;
 	grid-template-columns: 2;
 	grid-template-rows: 2;
 	padding-bottom: 25%;
 	grid-row-gap: 10px;
-	width: 900px;
+}
+.entry .desc {
+	max-width: 48%;
+}
+.imgcontent {
+	grid-column-start: 2;
+	width: 95%%;
 }
