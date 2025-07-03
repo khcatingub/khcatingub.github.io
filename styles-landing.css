@@ -1,0 +1,45 @@
+.landing {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    display: grid;
+    align-self: end;
+    gap: 20px;
+    width: 840px;
+    max-width: 100%;
+    padding-right: 20px;
+}
+.landing img {
+    align-self: start;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.profile {
+    position: relative;
+    grid-row-start: span 2;
+    width: 391.5px;
+}
+.profile:hover .hoverlay {
+    height: 100%;
+    top: 0;
+}
+
+.work {
+    position: relative;
+    grid-column-start: 2;
+    width: 450px;
+}
+.work:hover .hoverlay {
+    height: 100%;
+    top: 0;
+}
+.text {
+    color: white;
+    font-size: 20pt;
+    font-weight: bold;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}

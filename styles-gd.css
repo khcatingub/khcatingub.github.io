@@ -1,0 +1,41 @@
+.gdesign {
+    position: absolute;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 20px;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    width: 840px;
+    max-width: 100%;
+    height: 800px;
+    align-items: flex-end;
+}
+.gdesign img {
+    align-self: start;
+    max-width: 410px;
+    height: 100%;
+}
+.gdesign h1 {
+    font-size: 48pt;
+    margin-bottom: -15pt;
+}
+.gdesign p {
+    margin-bottom: 0;
+    font-size: 11pt;
+}
+.entry {
+    position: relative;
+    display: block;
+}
+.entry:hover .hoverlay {
+    height: 100%;
+    top: 0;
+}
+.text {
+    position: absolute;
+    margin: 10px;
+    bottom: 0;
+    line-height: 1;
+    text-shadow: 1px 1px 3px #0f0f0f;
+}

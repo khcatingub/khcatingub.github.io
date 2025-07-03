@@ -1,0 +1,91 @@
+html {
+	overflow-y: scroll;
+	scroll-behavior: smooth;
+}
+body {
+	background-color: #0f0f0f;
+	background-size: cover;
+	font-family: Arial;
+	color: white;
+	margin: 0;
+}
+h1 {
+	line-height: .9em;
+}
+a {
+	color: white;
+	text-decoration-line: none;
+}
+.sidebar a:hover {
+    text-decoration: underline;
+}
+#rectangle1 {
+	min-height: 100%;
+	position: fixed;
+	overflow: hidden;
+	border:	15px solid #b82d25;
+	width: 0;
+}
+#rectangle2 {
+	margin-left: 25px;
+	min-height: 100%;
+	position: fixed;
+	overflow: hidden;
+	border:	15px solid #e53422;
+	width: 0;
+}
+#rectangle3 {
+	margin-left: 45px;
+	min-height: 100%;
+	position: fixed;
+	overflow: hidden;
+	border: 5px solid #efa12c;
+	width: 0;
+}
+.main {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-left: 80px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.sidebar {
+	width: 400px;
+	min-height: 100%;
+	position: fixed;
+}
+.sidebar p {
+	margin-top: -15px;
+	line-height: 1.15em;
+}
+.logo {
+	max-width: 50px;
+	height: auto;
+	padding-bottom: 33px;
+	padding-right: 5px;
+	top: 0;
+}
+.header {
+	display: inline-block;
+}
+.links {
+	line-height: 2em;
+}
+.hoverlay {
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+    width: 100%;
+    overflow: hidden;
+    transition: .40s ease;
+    background-color: rgba(5, 0, 0, 0.85)
+}
+*:not(:hover) .hoverlay {
+    transition: .70s ease;
+}

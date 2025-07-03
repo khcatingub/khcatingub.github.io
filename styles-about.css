@@ -1,0 +1,17 @@
+.aboutme {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    width: 840px;
+    max-width: 100%;
+}
+.aboutme img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+p {
+    text-align: justify;
+    font-size: 12pt;
+}
